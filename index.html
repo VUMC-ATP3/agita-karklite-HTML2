@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sodien ir skaista diena</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="full">
+        <div class="left">
+
+    <h1>šis ir mans pirmais html dokuments.</h1>
+
+<h2 class="note">šī ir pirmā rindkopa</h2>
+<!--p nozime paragrafs
+tas nozime kaut ko-->
+
+
+
+
+<p class="note">
+    šis ir <strong>apraksts</strong> par mani. 
+    <a href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN</a>
+   
+<h6 class="note">Apakšvirsraksts</h6>
+hasellus risus urna, dignissim at lorem eget, vestibulum mattis lectus. Quisque id vestibulum erat, id imperdiet arcu. Nulla laoreet viverra odio id accumsan
+
+</p>  
+
+<h2>šis ir otrais paragrāfs</h2>
+<p>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+
+</p>
+
+<h2>Bilde ar mašīnu</h2>
+<img src="img/Spring_main00.jpg" width="10%" alt="bilde ar mašinu">
+</div>
+<div class="right">
+   
+
+<img src="https://www.lu.lv/templates/LU.LV/Public/Images/logo_100_blue.svg" height=100px alt="lu logo">
+
+<input id="vecums" maxlength="8">
+<button id="poga">SPIED ŠEIT</button>
+<p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong>> </p>
+<h3>iepirkumu saraksts</h3>
+<ul>
+    <li>piens</li>
+    <li>maize</li>
+    <li>cukurs</li>
+</ul>
+
+<h3 style="color:blueviolet;background-color:black;">kā uzvārīt kafiju</h3>
+<ol>
+    <li>jāuzvāra s</li>
+    <li>jāieber kafija</li>
+    <li>jāielej ūdens</li>
+    <li>jāpagaida, kamēr tēja ievilksties</li>
+</ol>
+
+</div>
+</div>
+
+</body>
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Hello Juris! Tavs vecums ir " +  vecums);
+        document.getElementById("lietotajavecums").innerText = vecums;
+    };
+    
+
+    
+
+</script>
+</html>

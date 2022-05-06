@@ -1,0 +1,30 @@
+/* Pēc klases */
+.note{
+    color:blue;
+}
+
+/* Pēc elementa nosaukuma */
+h3 {
+    color:blueviolet;
+    background-color:black;
+}
+
+.full{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 2fr 4fr;
+    border-style: groove;
+}
+
+.left{
+
+    background-color: darkgray;
+}
+
+.right{
+    background-color: darkolivegreen;
+}
+
+#vecums{
+    width: 50px;
+}
